@@ -35,7 +35,7 @@
     "parse-headers": "2.0.0",
     "qs": "4.0.0",
     "react": "0.13.3",
-    "react-bootstrap": "0.26.0",
+    "react-bootstrap": "0.26.1",
     "semver": "5.0.3",
     "uri-templates": "0.1.9",
     "xhr": "2.1.0"
