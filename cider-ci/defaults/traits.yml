@@ -8,3 +8,4 @@ traits:
   maven3: true
   openjdk: true
   postgresql: true
+  Cislave5: true

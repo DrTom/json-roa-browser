@@ -1,7 +1,4 @@
-dependencies_installed:
-  body: 'true'
-  start-when:
-    - script: npm-install
-
 npm-install:
-  body: 'npm install'
+  exclusive-executor-resource: npm-modules
+  body: bin/install_npm_modules_with_caching.sh
+

@@ -1,10 +1,10 @@
-start-vnc:
+start-xvnc:
   body: |
     #!/usr/bin/env bash
     set -eux
     tightvncserver "${DISPLAY}"  -geometry 1024x768 -rfbport "$XVNC_PORT"  -interface '0.0.0.0'
 
-stop-vnc:
+stop-xvnc:
   body: |
     #!/usr/bin/env bash
     set -eux

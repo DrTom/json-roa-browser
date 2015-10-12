@@ -25,9 +25,8 @@ jobs:
           name: 'Integration Tests'
           scripts:
             test:
-              name: 'Browser Integration Tests'
               body: |
-                #!/bin/bash
+                #!/usr/bin/env bash
                 npm run -s integration-tests
               start-when:
               - script: api-is-running
